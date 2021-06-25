@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact Us</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="myScript.js"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Goblin+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+  	  
+	<header>
+    <h1>NEW WORLD TECHNOLOGY</h1>
+    <!--navigation-->
+    <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+	  <li><a href="products.html">Products</a></li>
+	  <li><a href="about-us.html">About Us</a></li>
+	  <li><a href="contact-us.html">Contact Us</a></li>
+    </ul>
+    </nav>
+    </header>
+	
+    <h2>Contact Us</h2>
+	<h4>Here is our contact info. Get in touch with us!</h4>
+	
+	<!--Contact Form-->
+	<div class="contact-us">
+	<div id="contact-form">
+	<form>
+	 
+	      <label for="full-name">Full Name: </label><br>
+	      <input type="text" id="full-name" name="full-name" placeholder="Jane Doe" required>
+	      <br><br>
+	      <label for="email">Email: </label><br>
+	      <input type="email" id="email" name="email" placeholder="janedoe@gmail.com" required>
+	      <br><br>
+		  <input type="radio" id="general" name="enquiry-type" value="general" checked>
+		  <label for="general">General Enquiry</label>
+		  <input type="radio" id="product-enquiry" name="enquiry-type" value = "product-enquiry">
+		  <label for="product-enquiry">Product Enquiry</label>
+		  <input type="radio" id="other" name="enquiry-type" value="other">
+		  <label for="other">Other Enquiry</label>
+		  <br><br>
+	      <label for="message">Message: </label><br>
+	      <textarea id="message" name="message" placeholder="Type your message here." required></textarea>
+	      <br>
+	      <input type="submit" id="submit" name="submit" value="Submit" onclick="submitButton()">
+	</form>
+	</div>
+	
+	<!--Contact Information-->
+	<div id="contact-information">
+	<p><b>Physical Address:</b><p>
+	<p>123 Summer Lane<br>Dream Hill Offices<br>Pretoria<br>0123</p>
+	<br>
+	
+	<p><b>Contact Number:</b><p>
+	<p>012 345 6789<p>
+	<br>
+	
+	<p><b>Email Address:</b></p>
+	<p><a href="mailto:newworldtechnology@gmail.com">newworldtechnology@gmail.com</a></p>
+	<br>
+	</div>
+	</div>
+
+	<map>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3465.0303631127545!2d31.067770214638017!3d-29.718879723169408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef7058dbf5bb55f%3A0xb38234e9426c139a!2s123%20Summer%20Way%20Ln%2C%20Umhlanga!5e0!3m2!1sen!2sza!4v1624570259791!5m2!1sen!2sza" width="1000" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	</map>
+  <footer>
+    
+	<!--Social media buutons-->
+	
+	<p>Connect With Us Here:</p>
+	
+	<div class="social-media">
+    <ul>
+	  <li><a target="_blank" href="https://web.facebook.com/?_rdc=1&_rdr"><i class="fa fa-facebook"></i></a></li>
+	  <li><a target="_blank" href="#"><i class="fa fa-twitter"></i></a></li>
+	  <li><a target="_blank" href="#"><i class="fa fa-instagram"></i></a></li>
+	  <li><a target="_blank" href="#"><i class="fa fa-linkedin"></i></a></li>
+	</ul>
+	</div>
+  
+    <div class="footer-nav">
+    <ul>
+	  <li><a href="index.html">Home</a></li>
+	  <li><a href="products.html">Products</a></li>
+	  <li><a href="about-us.html">About Us</a></li>
+	  <li><a href="contact-us.html">Contact Us</a></li>
+	</ul>
+	</div>
+	
+	<p>New World Technology © 2021</p>
+  </footer>
+  </body>
+</html>
