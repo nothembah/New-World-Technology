@@ -106,16 +106,16 @@
   }
   
   .product-list {
-	  display: flex;
-	  flex-shrink: 2;
-	  justify-content: space-evenly;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
   }
   
   .product-list img {
 	  height: 213px;
 	  width: 320px;
 	  
-  }
+  } 
 
   .product-list p {
 	  width: 310px;
@@ -128,10 +128,12 @@
    
    #product-two {
 	  padding: 20px;
+	 
    }
    
    #product-three {
 	  padding: 20px;
+	  
    }
    
     #product-one:hover{
@@ -165,6 +167,7 @@
    .team-list {
 	  display: flex;
 	  justify-content: center;
+	  flex-wrap: wrap;
    }
    
    .team-list img {
@@ -278,6 +281,7 @@
    /**Footer Styles**/
    
    footer {
+	   clear: both;
 	   margin-top: 20px;
 	   margin-bottom: -10px;
 	   margin-left: -10px;
@@ -334,8 +338,6 @@
 	   color: white;
    }
 
-  @media only screen and (max-width: 500px){
-	.product-list {
-		display: block;
-	}
-  }
+   @media (min-width:320px)  { 
+	   /* smartphones, iPhone, portrait 480x320 phones */
+ }
