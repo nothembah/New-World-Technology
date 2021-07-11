@@ -1,5 +1,5 @@
 # :earth_africa: New World Technology
-Simple website created using Visual Studio Code and Node.js -> [Live Demo]https://rawcdn.githack.com/nothembah/New-World-Technology/fb497d4e10c4eea89da36fbc37686d2dd79206b7/index.html)
+Simple website created using Visual Studio Code and Node.js -> [Live Demo](https://rawcdn.githack.com/nothembah/New-World-Technology/fb497d4e10c4eea89da36fbc37686d2dd79206b7/index.html)
 
 ## Table of Contents
 * [General info](#general-info)
